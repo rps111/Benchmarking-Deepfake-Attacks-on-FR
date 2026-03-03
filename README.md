@@ -1,5 +1,4 @@
 # Benchmarking-Deepfake-Attacks-on-FR
-# Deepfake-FR-Bench: Benchmarking Deepfake Attacks on Deep Face Recognition Systems
 
 Official implementation for evaluating the impact of diverse Deepfake generation methods on state-of-the-art face recognition (FR) systems. 
 
