@@ -1,22 +1,22 @@
 # Benchmarking-Deepfake-Attacks-on-FR
 # Deepfake-FR-Bench: Benchmarking Deepfake Attacks on Deep Face Recognition Systems
 
-[cite_start]Official implementation for evaluating the impact of diverse Deepfake generation methods on state-of-the-art face recognition (FR) systems. 
+Official implementation for evaluating the impact of diverse Deepfake generation methods on state-of-the-art face recognition (FR) systems. 
 
-[cite_start]This repository provides a unified benchmarking framework to evaluate three distinct attack objectives defined in our taxonomy: **Direct Impersonation (DI)**, **Evasion Attack (EA)**, and **Ambiguous Identity Overlap (AIO)**
+This repository provides a unified benchmarking framework to evaluate three distinct attack objectives defined in our taxonomy: **Direct Impersonation (DI)**, **Evasion Attack (EA)**, and **Ambiguous Identity Overlap (AIO)**
 
 
 ---
 
 ## Repository Structure
 
-[cite_start]The evaluation core consists of three specialized Python scripts, each corresponding to an attack objective defined in the paper:
+The evaluation core consists of three specialized Python scripts, each corresponding to an attack objective defined in the paper:
 
 | Script | Attack Objective | Description |
 | :--- | :--- | :--- |
-| `DI.py` | **Direct Impersonation** | [cite_start]Evaluates if a Deepfake can successfully impersonate a specific target identity to gain unauthorized access. |
-| `EA.py` | **Evasion Attack** | [cite_start]Measures the ability to bypass recognition systems, rendering the subject unidentifiable. |
-| `AIO.py` | **Ambiguous Identity Overlap** | [cite_start]Evaluates if a Deepfake identity can pass authentication for more than one individual simultaneously. |
+| `DI.py` | **Direct Impersonation** | Evaluates if a Deepfake can successfully impersonate a specific target identity to gain unauthorized access. |
+| `EA.py` | **Evasion Attack** | Measures the ability to bypass recognition systems, rendering the subject unidentifiable. |
+| `AIO.py` | **Ambiguous Identity Overlap** | Evaluates if a Deepfake identity can pass authentication for more than one individual simultaneously. |
 
 ## Dataset Structure
 ```text
