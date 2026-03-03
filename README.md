@@ -58,16 +58,16 @@ All scripts support the --threshold_param argument to scale default decision thr
 
 Direct Impersonation (DI)
 ```bash
-python DI.py --image_dataset_path ./dataset --database_path ./gallery/ --model_name ArcFace --threshold_param 1.0
+python DI.py --image_dataset_path ./dataset --database_path ./gallery/ --model_name ArcFace --threshold_param 1.0 --recognition_mode I
 ```
 
 
 Evasion Attack (EA)
 ```bash
-python EA.py --image_dataset_path ./dataset --database_path ./gallery/ --model_name ArcFace --threshold_param 1.0
+python EA.py --image_dataset_path ./dataset --database_path ./gallery/ --model_name ArcFace --threshold_param 1.0 --recognition_mode I
 ```
 
 Ambiguous Identity Overlap (AIO)
 ```bash
-python AIO.py --image_dataset_path ./dataset --database_path ./gallery/ --model_name Facenet --threshold_param 1.0
+python AIO.py --image_dataset_path ./dataset --database_path ./gallery/ --model_name Facenet --threshold_param 1.0 --recognition_mode I
 ```
