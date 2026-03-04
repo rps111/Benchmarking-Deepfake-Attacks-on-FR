@@ -47,11 +47,23 @@ Deepfake-FR-Bench/
 
 ## Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/rps111/Benchmarking-Deepfake-Attacks-on-FR.git
-   cd Deepfake-FR-Bench
-    ```
+**Clone the repository**:
+```bash
+# Clone the repository from GitHub
+git clone https://github.com/rps111/Benchmarking-Deepfake-Attacks-on-FR.git
+
+# Navigate into the project directory
+cd Deepfake-FR-Bench
+ ```
+
+**Set up the environment**:
+```bash
+# Create the virtual environment from the yml file
+conda env create -f environment.yml
+
+# Activate the environment
+conda activate df-fr-bench
+ ```
 ## Usage
 
 All scripts support the --threshold_param argument to scale default decision thresholds (e.g., 1.0 for default, 0.8 for stricter).
