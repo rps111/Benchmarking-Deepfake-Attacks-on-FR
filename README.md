@@ -4,7 +4,7 @@ Official implementation for evaluating the impact of diverse Deepfake generation
 
 This repository provides a unified benchmarking framework to evaluate three distinct attack objectives defined in our taxonomy: **Direct Impersonation (DI)**, **Evasion Attack (EA)**, and **Ambiguous Identity Overlap (AIO)**
 
-
+**Sensitivity Analysis** for all FR models—is hosted in the sensitivity_analysis directory.
 ---
 
 ## Repository Structure
