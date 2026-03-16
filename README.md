@@ -2,9 +2,10 @@
 
 Official implementation for evaluating the impact of diverse Deepfake generation methods on state-of-the-art face recognition (FR) systems. 
 
-This repository provides a unified benchmarking framework to evaluate three distinct attack objectives defined in our taxonomy: **Direct Impersonation (DI)**, **Evasion Attack (EA)**, and **Ambiguous Identity Overlap (AIO)**
+This repository provides a unified benchmarking framework to evaluate three distinct attack objectives defined in our taxonomy: **Direct Impersonation (DI)**, **Evasion Attack (EA)**, and **Ambiguous Identity Overlap (AIO)**.
 
-**Sensitivity Analysis** for all FR models—is hosted in the sensitivity_analysis directory.
+> **Note:** The sensitivity analysis for all evaluated FR models is hosted in the sensitivity_analysis directory.
+
 ---
 
 ## Repository Structure
