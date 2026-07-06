@@ -40,7 +40,7 @@ def get_model_default_threshold(model_name):
     Returns the default threshold for a given model.
     """
     thresholds = {
-        "VGG-Face": 0.40,
+        "VGG-Face": 0.68,
         "Facenet": 0.40,
         "Facenet512": 0.30,
         "OpenFace": 0.10,
