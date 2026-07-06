@@ -34,6 +34,10 @@
 
 </div>
 
+<div align="center">
+<img src="./figs/framework.png">
+</div>
+
 ## Updates
 
 * [2026] Paper accepted by **IEEE Transactions on Dependable and Secure Computing (TDSC)**.
