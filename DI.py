@@ -41,7 +41,7 @@ def get_model_default_threshold(model_name, metric='cosine'):
     """
     # Standard thresholds for Cosine similarity in DeepFace
     thresholds = {
-        "VGG-Face": 0.40,
+        "VGG-Face": 0.68,
         "Facenet": 0.40,
         "ArcFace": 0.68,
         "Dlib": 0.07,
